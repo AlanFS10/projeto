@@ -1,0 +1,513 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-size: 14px;
+  
+  }
+
+  .fundo {
+    width: 100%;
+    height: 2344px;
+    background: linear-gradient(72deg, #4e4949 4%, #b14949 96%);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+
+  .logo {
+    width: 100%;
+    height: 230px;
+    background: url("../img/baladagif2.gif");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.barramenu {
+    width: 100%;
+    height: 50px;
+    background: rgba(34, 31, 31, 1);
+    opacity: 1;
+    position: absolute;
+    top: 230px;
+    left: 0px;
+    overflow: hidden;
+}
+
+  .home {
+    width: 152px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 235px;
+    left: 30px;
+    font-family: Fuzzy Bubbles;
+    font-weight: Bold;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+}
+
+
+.ingressos {
+    width: 283px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 235px;
+    left: 200px;
+    font-family: Fuzzy Bubbles;
+    font-weight: Bold;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+}
+
+.sobrenos {
+    width: 291px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 235px;
+    left: 450px;
+    font-family: Fuzzy Bubbles;
+    font-weight: Bold;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+}
+
+.orcamentos {
+    width: 233px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 235px;
+    left: 730px;
+    font-family: Fuzzy Bubbles;
+    font-weight: Bold;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+}
+
+  .img_alok {
+    width: 400px;
+    height: 300px;
+    background: url("../img/alok.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border: 5px solid rgb(77, 74, 74);
+    opacity: 1;
+    position: absolute;
+    top: 380px;
+    left: 70px;
+    overflow: hidden;
+  }
+
+  .img_tropkillaz {
+    width: 400px;
+    height: 300px;
+    background: url("../img/tropkillaz.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border: 5px solid rgb(77, 74, 74);
+    opacity: 1;
+    position: absolute;
+    top: 380px;
+    left: 750px;
+    overflow: hidden;
+  }
+
+  .img_pedro_s {
+    width: 400px;
+    height: 300px;
+    background: url("../img/pedro_s.jpeg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border: 5px solid rgb(77, 74, 74);
+    opacity: 1;
+    position: absolute;
+    top: 900px;
+    left: 70px;
+    overflow: hidden;
+  }
+
+  .img_dennisdj {
+    width: 400px;
+    height: 300px;
+    background: url("../img/dennis_dj.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border: 5px solid rgb(77, 74, 74);
+    opacity: 1;
+    position: absolute;
+    top: 900px;
+    left: 750px;
+    overflow: hidden;
+  }
+
+  .img_djtiesto {
+    width: 400px;
+    height: 300px;
+    background: url("../img/djtiesto.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border: 5px solid rgb(77, 74, 74);
+    opacity: 1;
+    position: absolute;
+    top: 1450px;
+    left: 70px;
+    overflow: hidden;
+  }
+
+  .img_djanna {
+    width: 400px;
+    height: 300px;
+    background: url("../img/djanna.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border: 5px solid rgb(77, 74, 74);
+    opacity: 1;
+    position: absolute;
+    top: 1450px;
+    left: 750px;
+    overflow: hidden;
+  }
+
+/*
+.partiurole {
+    width: 250px;
+    height: 200px;
+    background: url("../img/partiu_role2.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+*/
+
+  .titulo {
+    width: 100%;
+    color: rgb(255, 0, 21);
+    position: absolute;
+    top: 280px;
+    left: 0px;
+    font-family: Dancing Script;
+    font-weight: Bold;
+    font-size: 60px;
+    opacity: 1;
+    text-align: center;
+  }
+
+  .T_djalok {
+    width: 400px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 700px;
+    left: 70px;
+    font-family: Inter;
+    font-weight: Extra Bold;
+    font-size: 35px;
+    opacity: 1;
+    text-align: center;
+  }
+
+  .T_dennisdj {
+    width: 400px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 1220px;
+    left: 750px;
+    font-family: Inter;
+    font-weight: Extra Bold;
+    font-size: 35px;
+    opacity: 1;
+    text-align: center;
+  }
+
+  .T_djps {
+    width: 400px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 1220px;
+    left: 70px;
+    font-family: Inter;
+    font-weight: Extra Bold;
+    font-size: 35px;
+    opacity: 1;
+    text-align: center;
+  }
+
+  .T_tropkillaz {
+    width: 400px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 700px;
+    left: 750px;
+    font-family: Inter;
+    font-weight: Extra Bold;
+    font-size: 35px;
+    opacity: 1;
+    text-align: center;
+  }
+
+  .T_djtiesto {
+    width: 400px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 1750px;
+    left: 70px;
+    font-family: Inter;
+    font-weight: Extra Bold;
+    font-size: 35px;
+    opacity: 1;
+    text-align: center;
+  }
+
+  .T_djanna {
+    width: 400px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 1750px;
+    left: 750px;
+    font-family: Inter;
+    font-weight: Extra Bold;
+    font-size: 35px;
+    opacity: 1;
+    text-align: center;
+  }
+
+  .dia_alok {
+    width: 400px;
+    color: rgba(46, 93, 214, 1);
+    position: absolute;
+    top: 750px;
+    left: 70px;
+    font-family: Inter;
+    font-weight: Extra Bold;
+    font-size: 30px;
+    opacity: 1;
+    text-align: center;
+  }
+
+  .dia_dennisdj {
+    width: 400px;
+    color: rgba(46, 93, 214, 1);
+    position: absolute;
+    top: 1270px;
+    left: 750px;
+    font-family: Inter;
+    font-weight: Extra Bold;
+    font-size: 30px;
+    opacity: 1;
+    text-align: center;
+  }
+
+  .dia_djps {
+    width: 400px;
+    color: rgba(46, 93, 214, 1);
+    position: absolute;
+    top: 1270px;
+    left: 70px;
+    font-family: Inter;
+    font-weight: Extra Bold;
+    font-size: 35px;
+    opacity: 1;
+    text-align: center;
+  }
+
+  .dia_tropkillaz {
+    width: 400px;
+    color: rgba(46, 93, 214, 1);
+    position: absolute;
+    top: 750px;
+    left: 750px;
+    font-family: Inter;
+    font-weight: Extra Bold;
+    font-size: 30px;
+    opacity: 1;
+    text-align: center;
+  }
+
+  .dia_djtiesto {
+    width: 400px;
+    color: rgba(46, 93, 214, 1);
+    position: absolute;
+    top: 1800px;
+    left: 70px;
+    font-family: Inter;
+    font-weight: Extra Bold;
+    font-size: 30px;
+    opacity: 1;
+    text-align: center;
+  }
+
+  .dia_djanna {
+    width: 400px;
+    color: rgba(46, 93, 214, 1);
+    position: absolute;
+    top: 1800px;
+    left: 750px;
+    font-family: Inter;
+    font-weight: Extra Bold;
+    font-size: 30px;
+    opacity: 1;
+    text-align: center;
+  }
+
+  .rodape {
+    width: 100%;
+    height: 346px;
+    background: rgba(59, 57, 57, 1);
+    opacity: 1;
+    position: absolute;
+    top: 2100px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.copyright {
+    width: 100%;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 2300px;
+    left: 15px;
+    font-family: Inter;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+    text-align: left;
+}
+
+.contato {
+    width: 150px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 2100px;
+    left: 50px;
+    font-family: Inter;
+    font-weight: Regular;
+    font-size: 30px;
+    opacity: 1;
+    text-align: center;
+}
+
+  .horarios {
+    width: 340px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 2100px;
+    left: 850px;
+    font-family: Inter;
+    font-weight: Regular;
+    font-size: 30px;
+    opacity: 1;
+    text-align: center;
+}
+
+  .arena {
+    width: 400px;
+    color: rgba(199, 61, 2, 1);
+    position: absolute;
+    top: 800px;
+    left: 50px;
+    font-family: Inter;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+    text-align: center;
+  }
+
+  .sambodramo {
+    width: 400px;
+    color: rgba(199, 61, 2, 1);
+    position: absolute;
+    top: 800px;
+    left:750px;
+    font-family: Inter;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+    text-align: center;
+  }
+
+  .limao {
+    width: 400px;
+    color: rgba(199, 61, 2, 1);
+    position: absolute;
+    top: 1330px;
+    left: 70px;
+    font-family: Inter;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+    text-align: center;
+  }
+
+  .barrafunda {
+    width: 400px;
+    color: rgba(199, 61, 2, 1);
+    position: absolute;
+    top: 1330px;
+    left: 750px;
+    font-family: Inter;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+    text-align: center;
+  }
+
+  .caninde {
+    width: 400px;
+    color: rgba(199, 61, 2, 1);
+    position: absolute;
+    top: 1850px;
+    left: 70px;
+    font-family: Inter;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+    text-align: center;
+  }
+
+  .barrafunda1 {
+    width: 400px;
+    color: rgba(199, 61, 2, 1);
+    position: absolute;
+    top: 1850px;
+    left: 750px;
+    font-family: Inter;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+    text-align: center;
+  }
+  .zap {
+    width: 90px;
+    height: 100px;
+    background: url("../img/zap.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 2000px;
+    left: 50px;
+    overflow: hidden;
+}

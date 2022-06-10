@@ -1,0 +1,304 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 9px;
+}
+
+.fundo {
+    width: 100%;
+    height: 2344px;
+    background: linear-gradient(72deg, #4e4949 4%, #b14949 96%);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+
+.logo {
+    width: 100%;
+    height: 230px;
+    background: url("../img/baladagif2.gif");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.barramenu {
+    width: 100%;
+    height: 50px;
+    background: rgba(34, 31, 31, 1);
+    opacity: 1;
+    position: absolute;
+    top: 230px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.home {
+    width: 200px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 235px;
+    left: 30px;
+    font-family: Fuzzy Bubbles;
+    font-weight: Bold;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+}
+
+.ingressos {
+    width: 200px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 235px;
+    left: 200px;
+    font-family: Fuzzy Bubbles;
+    font-weight: Bold;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+}
+
+.sobrenos {
+    width: 291px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 235px;
+    left: 450px;
+    font-family: Fuzzy Bubbles;
+    font-weight: Bold;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+}
+
+.orcamentos {
+    width: 233px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 235px;
+    left: 730px;
+    font-family: Fuzzy Bubbles;
+    font-weight: Bold;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+}
+
+/*.img1 {
+    width: 700px;
+    height: 300px;
+    background: url("../img/partiu_role.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 900px;
+    left: 30px;
+    overflow: hidden;
+}
+*/
+
+.titulo {
+    width: 100%;
+    color: rgb(255, 0, 21);
+    position: absolute;
+    top: 280px;
+    left: 0px;
+    font-family: Dancing Script;
+    font-weight: Bold;
+    font-size: 60px;
+    opacity: 1;
+    text-align: center;
+}
+
+.texto {
+    width: 600px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 1000px;
+    left: 200px;
+    font-family: Inter;
+    font-weight: Extra Bold;
+    font-size: 40px;
+    opacity: 1;
+    text-align: center;
+}
+
+
+/*
+.partiurole {
+    width: 250px;
+    height: 200px;
+    background: url("../img/partiu_role2.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+*/
+
+.texto2 {
+    width: 500px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 1300px;
+    left: 20px;
+    font-family: Inter;
+    font-weight: Extra Bold;
+    font-size: 50px;
+    opacity: 1;
+    text-align: left;
+}
+
+.rodape {
+    width: 100%;
+    height: 346px;
+    background: rgba(59, 57, 57, 1);
+    opacity: 1;
+    position: absolute;
+    top: 2100px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.contato {
+    width: 150px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 2100px;
+    left: 50px;
+    font-family: Inter;
+    font-weight: Regular;
+    font-size: 30px;
+    opacity: 1;
+    text-align: center;
+}
+
+.horario {
+    width: 340px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 2100px;
+    left: 850px;
+    font-family: Inter;
+    font-weight: Regular;
+    font-size: 30px;
+    opacity: 1;
+    text-align: center;
+}
+
+.copyright {
+    width: 100%;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 2300px;
+    left: 15px;
+    font-family: Inter;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+    text-align: left;
+}
+
+.zap {
+    width: 90px;
+    height: 100px;
+    background: url("../img/zap.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 2000px;
+    left: 50px;
+    overflow: hidden;
+}
+/* carousel*/
+body {
+    margin:0;
+    padding:0;
+    height: 100px;
+    width:100vw;
+}
+
+.content{
+    height:500px;
+    width:900px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: absolute;
+    top:55%;
+    left: 5%;
+    
+}
+
+.navigation{
+    position: absolute;
+    bottom: 10px;
+    left: 40%;
+    display: flex;
+}
+
+.barra{
+    width: 70px;
+    height:15px;
+    border: 2px solid #fff;
+    margin: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .7s;
+}
+
+.barra:hover{
+    background: #fff;
+
+}
+
+input{
+    display:none;
+}
+
+.slides {
+   display: flex;
+   width:500%;
+   height:100%;
+}
+
+.slide{
+    width: 20%;
+    transition: .7s;
+
+}
+
+.slide img{
+    width:100%;
+    height:100%;
+}
+
+#slide1:checked ~ .s1 {
+    margin-left: 0;
+}
+
+#slide2:checked ~ .s1 {
+    margin-left: -20%;
+}
+
+#slide3:checked ~ .s1 {
+    margin-left: -40%;
+}
