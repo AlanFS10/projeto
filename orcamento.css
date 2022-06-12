@@ -1,0 +1,335 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 9px;
+}
+
+.fundo {
+    width: 100%;
+    height: 2344px;
+    background: linear-gradient(72deg, #4e4949 4%, #b14949 96%);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+
+.logo {
+    width: 100%;
+    height: 230px;
+    background: url("./img/baladagif2.gif");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.barramenu {
+    width: 100%;
+    height: 50px;
+    background: rgba(34, 31, 31, 1);
+    opacity: 1;
+    position: absolute;
+    top: 230px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.home {
+    width: 200px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 235px;
+    left: 30px;
+    font-family: Fuzzy Bubbles;
+    font-weight: Bold;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+}
+
+.ingressos {
+    width: 200px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 235px;
+    left: 200px;
+    font-family: Fuzzy Bubbles;
+    font-weight: Bold;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+}
+
+.sobrenos {
+    width: 291px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 235px;
+    left: 450px;
+    font-family: Fuzzy Bubbles;
+    font-weight: Bold;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+}
+
+.orcamentos {
+    width: 233px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 235px;
+    left: 730px;
+    font-family: Fuzzy Bubbles;
+    font-weight: Bold;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+}
+
+/*.img1 {
+    width: 400px;
+    height: 400px;
+    background: url("../img/pariu\ role\ 4.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 800px;
+    left: 30px;
+    overflow: hidden;
+}
+*/
+
+
+.titulo {
+    width: 100%;
+    color: rgb(255, 0, 21);
+    position: absolute;
+    top: 280px;
+    left: 0px;
+    font-family: Dancing Script;
+    font-weight: Bold;
+    font-size: 60px;
+    opacity: 1;
+    text-align: center;
+}
+
+.texto1 {
+    width: 600px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 580px;
+    left: 300px;
+    font-family: Inter;
+    font-weight: Extra Bold;
+    font-size: 30px;
+    opacity: 1;
+    text-align: center;
+}
+
+
+/*
+.partiurole {
+    width: 250px;
+    height: 200px;
+    background: url("../img/partiu_role2.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+*/
+
+
+.texto2 {
+    width: 500px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 1300px;
+    left: 20px;
+    font-family: Inter;
+    font-weight: Extra Bold;
+    font-size: 50px;
+    opacity: 1;
+    text-align: left;
+}
+
+.rodape {
+    width: 100%;
+    height: 346px;
+    background: rgba(59, 57, 57, 1);
+    opacity: 1;
+    position: absolute;
+    top: 2100px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.contato {
+    width: 150px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 2100px;
+    left: 50px;
+    font-family: Inter;
+    font-weight: Regular;
+    font-size: 30px;
+    opacity: 1;
+    text-align: center;
+}
+
+.horario {
+    width: 340px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 2100px;
+    left: 850px;
+    font-family: Inter;
+    font-weight: Regular;
+    font-size: 30px;
+    opacity: 1;
+    text-align: center;
+}
+
+.copyright {
+    width: 100%;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 2300px;
+    left: 15px;
+    font-family: Inter;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+    text-align: left;
+}
+
+.zap {
+    width: 90px;
+    height: 100px;
+    background: url("./img/zap.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 2000px;
+    left: 50px;
+    overflow: hidden;
+}
+
+
+input, select, textarea, button{
+    font-size: 1.5em;
+    border-radius: 8px;
+    margin-right: 3 ;  /**/
+    margin-left: 39 ;
+    margin-top: 1%;
+}
+
+.campo{
+    font-size: 2em;
+    margin-bottom: 1.5em;
+    margin-left: 35%;   /**/
+    margin-top:7%;
+}
+
+.campo label{
+    font-size: 1.8em;
+    margin-bottom: 0em;
+    color: #000000;
+    display:block
+}
+
+fieldset.campo .grupo{
+    float:left;
+    margin-left: 56em;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea{
+    padding: 0.3em;
+    border: 1.5px solid #050a2f;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+    display: block;
+    margin-left: 0%;  /**/
+
+}
+
+
+.campo select option{
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus{
+    background: #afafae;
+    
+}
+
+.botao1{
+    font-size: 3.5em;
+    background: rgba(228, 71, 85, 1);
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.1em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 78%;
+    left: 55%;  /**/
+    margin-right:  -50%;
+    transform: translate(-50%, -50%);
+}
+
+.botao1:hover{
+    background: #ccbbff;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: none;
+}
+
+.botao1, select{
+    cursor: pointer;
+}
+.botao:hover{
+    background: #ccbbff;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: none;
+}
+
+.botao, select{
+    cursor: pointer;
+}
+
+#check{
+    font-size:2em;
+    display: inline-block;
+}
+.botao{
+    font-size: 3.5em;
+    background: rgba(228, 71, 85, 1);
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.1em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 84%;
+    left: 55%;  
+    margin-right:  -50%;
+    transform: translate(-50%, -50%);
+}
