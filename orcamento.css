@@ -21,7 +21,7 @@ body {
 .logo {
     width: 100%;
     height: 230px;
-    background: url("../img/baladagif2.gif");
+    background: url("./img/baladagif2.gif");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -221,7 +221,7 @@ body {
 .zap {
     width: 90px;
     height: 100px;
-    background: url("../img/zap.png");
+    background: url("./img/zap.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
