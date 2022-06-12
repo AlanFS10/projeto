@@ -21,7 +21,7 @@
   .logo {
     width: 100%;
     height: 230px;
-    background: url("../img/baladagif2.gif");
+    background: url("./img/baladagif2.gif");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -99,7 +99,7 @@
   .img_alok {
     width: 400px;
     height: 300px;
-    background: url("../img/alok.jpg");
+    background: url("./img/alok.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -114,7 +114,7 @@
   .img_tropkillaz {
     width: 400px;
     height: 300px;
-    background: url("../img/tropkillaz.jpg");
+    background: url("./img/tropkillaz.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -129,7 +129,7 @@
   .img_pedro_s {
     width: 400px;
     height: 300px;
-    background: url("../img/pedro_s.jpeg");
+    background: url("./img/pedro_s.jpeg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -144,7 +144,7 @@
   .img_dennisdj {
     width: 400px;
     height: 300px;
-    background: url("../img/dennis_dj.jpg");
+    background: url("./img/dennis_dj.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -159,7 +159,7 @@
   .img_djtiesto {
     width: 400px;
     height: 300px;
-    background: url("../img/djtiesto.jpg");
+    background: url("./img/djtiesto.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -174,7 +174,7 @@
   .img_djanna {
     width: 400px;
     height: 300px;
-    background: url("../img/djanna.jpg");
+    background: url("./img/djanna.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -501,7 +501,7 @@
   .zap {
     width: 90px;
     height: 100px;
-    background: url("../img/zap.png");
+    background: url("./img/zap.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
